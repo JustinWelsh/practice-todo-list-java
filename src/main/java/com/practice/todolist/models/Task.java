@@ -20,8 +20,18 @@ public class Task {
     public Task() {
     }
 
+    public Task(String description, Priority priority) {
+        this.description = description;
+        this.priority = priority;
+    }
 
-//    Getters and Setters
+    public Task(long id, String description, Priority priority) {
+        this.id = id;
+        this.description = description;
+        this.priority = priority;
+    }
+
+    //    Getters and Setters
     public long getId() {
         return id;
     }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a Task</title>
+</head>
+<body>
+
+
+<form method="POST" action="/tasks/create">
+
+    <label for="description">Task</label>
+    <input id="description" name="description" type="text">
+    <br>
+
+    <label for="priority">Priority</label>
+    <select name="priority" id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+    <br>
+
+    <input type="submit">
+</form>
+</body>
+</html>
